@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css" media="all">
+    <link rel="stylesheet" href="style/font.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <title>Slider</title>
+</head>
+
+<body>
+    <!-- Slider -->
+    <div class="slidercontainer">
+        <input type="radio" name="images" id="i1" checked>
+        <input type="radio" name="images" id="i2">
+
+
+
+
+        <div class="slide_img" id="one">
+
+            <img src="images/slider/bg1.jpg">
+
+            <div id=slidertext>
+                <h1><span>WebAgency</span> : L'agence de tous vos projets!</h1>
+                <p>Vous avez un projet web?La WebAgency vous aide à la realiser!</p>
+                <button href="#service"> Plus D'infos</button>
+            </div>
+
+
+            <label for="i2" class="pre"><i class="fas fa-chevron-left" title="précédent" id="precedent1"></i></label>
+            <label for="i2" class="nxt"><i class="fas fa-chevron-right" title="suivant" id="suivant1"></i></label>
+
+            <div id="loading1"></div>
+
+        </div>
+        <div class="slide_img" id="two">
+            <img src="images/slider/bg2.jpg">
+
+            <label for="i1" class="pre"><i class="fas fa-chevron-left" title="précédent" id="precedent2"></i></label>
+            <label for="i1" class="nxt"><i class="fas fa-chevron-right" title="suivant" id="suivant2"></i></label>
+
+            <div id="loading2"></div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
