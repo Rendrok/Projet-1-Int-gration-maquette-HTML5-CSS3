@@ -1,0 +1,112 @@
+/**/
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'roboto', sans-serif;
+}
+
+h1
+{
+    font-family: 'roboto-bold', sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+/*circle*/
+
+.rond{
+    border: 7px solid;
+    border-radius: 50%;
+    border-color: #5CADD3;
+    margin: 0 50%;
+}
+
+/*Service*/
+
+#service
+{
+    text-align: center;
+}
+
+#service h1
+{
+    text-transform: uppercase;
+}
+
+#service p
+{
+     text-align: center;
+    width: 75%;
+    margin: 1% auto;
+}
+
+/*service text*/
+
+#blocservicetext
+{
+    display: flex;
+}
+#blocservicetext img
+{
+    height: 319px;
+    margin-left:  20vw;
+    padding-top: 2vw;
+}
+
+
+@media all and (max-device-width: 480px)
+{
+    #blocservicetext img
+    {
+        margin-left: 10px;
+        padding-top: 20px;
+    }
+}
+/*service text*/
+
+
+
+#servicetext
+{
+    margin-top: 90px;
+}
+
+#servicetext h2,
+#servicetext p
+{
+    display: flex;
+    margin-left: 80px;
+}
+
+#servicetext p
+{
+    width: 70%;
+    text-align: justify;
+}
+
+/*Icone and circle */
+.fas
+{
+    display: block;
+    position: absolute;
+    margin-left: -26%;
+    margin-top: 50px;
+    color: #5CADD3;
+}
+
+.rondtext
+{
+    border: 5px solid;
+    border-radius: 50%;
+    border-color: #5CADD3;
+    margin: 0 50px;
+    margin-top: -1vw;
+    position: absolute;
+    
+    
+}
