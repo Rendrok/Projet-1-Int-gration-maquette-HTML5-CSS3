@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="images/ico/favicon.ico">
+    <link rel="stylesheet" href="style/font.css">
+    <link rel="stylesheet" href="style/style.css" media="all">
+
+    <title>WebAgency</title>
+</head>
+
+<body>
+    <!--En-tête -->
+    <header>
+        <img src="images/logo.png" alt="logo webagency">
+        <nav id="navbar">
+
+            <ul id="navlist">
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Slider -->
+
+    <section class="slidercontainer">
+        <input type="radio" name="images" id="i1" checked>
+        <input type="radio" name="images" id="i2">
+
+        <div class="slide_img" id="one">
+
+            <img src="images/slider/bg1.jpg" alt="une petite fille avec les mains pleins de peinture ">
+
+            <div id=slidertext>
+                <h1><span>WebAgency</span> : L'agence de tous vos projets!</h1>
+                <p>Vous avez un projet web?La WebAgency vous aide à la realiser!</p>
+                <a href="#services"> Plus D'infos</a>
+            </div>
+
+
+            <label for="i2" class="pre"><i class="fas fa-chevron-left" title="précédent" id="precedent1"></i></label>
+            <label for="i2" class="nxt"><i class="fas fa-chevron-right" title="suivant" id="suivant1"></i></label>
+
+            <div id="loading1"></div>
+
+        </div>
+        <div class="slide_img" id="two">
+            <img src="images/slider/bg2.jpg" alt="un enfant avec un mégaphone">
+
+            <label for="i1" class="pre"><i class="fas fa-chevron-left " title="précédent" id="precedent2"></i></label>
+            <label for="i1" class="nxt"><i class="fas fa-chevron-right" title="suivant" id="suivant2"></i></label>
+
+            <div id="loading2"></div>
+
+        </div>
+
+    </section>
+
+    <!--Service -->
+
+    <article id="services">
+        <h1>Nos Services</h1>
+        <div class="rond"></div>
+        <p id=servicepresentation>Notre mission est de créer des plateformes web prêtes à l'emploi convenant au client. Utilisant des technologies toujours à la pointe de l'évolution, nous développons des plateformes E-Commerce, Blogs, Site vitrine, applications web et bien d'autres choses.</p>
+
+        <div id="blocservicetext">
+            <img src="images/main-feature.png" alt="écrant d'ordinateur">
+            <div id="servicetext">
+               
+                <i class="fas fa-chart-line fa-2x servicesicones" >
+                </i>
+               
+                 <div class="rondtext"></div>
+
+                <h2>UX Design</h2>
+
+                <p>La qualité de l'expérience utilisateur est une chose important dans l'univers du web. Dans l'optique de fournir la meilleure qualité possible d'expérience pour l'utilisateur, nous avons une équipe entièrement dédiée pour le prototypage et l'analyse de l'interface de vos sites. Nos sites respect toujours une charte d'utilisation précise, liant ergonomie, fluidité, accessibilité et responsive-design.</p>
+
+                <i class="fas fa-cubes fa-2x servicesicones" >
+                </i>
+                
+                <div class="rondtext"></div>
+                
+                <h2>UI Design</h2>
+
+                <p>Les sites web se doivent d'être attirants. Chez WebAgency, nous nous assurons que le respect de vos critères en matière de design soit respecté par notre équipe spécialisée. Cette équipe nous permet de vous assuré un site unique grâce leur talent et leur dynamisme.</p>
+
+                <i class="fas fa-chart-pie fa-2x servicesicones" >
+                </i>
+                
+                <div class="rondtext"></div>
+                
+                <h2>SEO</h2>
+
+                <p>La visibilité sur le web et une chose importants que nous la WebAgency prenons très au sérieux.Dans le but d'assurer un référencement à la pointe des normes en vigueur, nous travaillons avec plusieurs partenaires experts en SEO pour assurer à nos clients une visibilité maximale!</p>
+            </div>
+        </div>
+    </article>
+
+    <!-- Nos Projets-->
+
+    <section id="block_nos_projets">
+        <div>
+            <h1 id="portfolio">Nos Projets</h1>
+            <div class="rond"></div>
+            <p id="nos_projet_text">Vous pouvez retrouver en dessous tous les projets créés en interne par la WebAgency.Pour plus d'informations, n'hésitez pas à utiliser le formulaire de contact.</p>
+            <div id="container_menu_portfolio">
+                <div id="portfolio_menu">
+                    <ul>
+                        <li>All works</li>
+                        <li>Creative
+                        </li>
+                        <li>Corporate</li>
+                        <li>Portofolio
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="imgprojets">
+                <article>
+                    <img src="images/portfolio/01.jpg" alt="logo de Potter Optik" class="portfolio_img">
+                    <div class="overlay_projet_info">
+                        <div class="icone_projet_info"><i class="far fa-eye"></i></div>
+                        <div class="legend">
+                            <h3>Potter Optik</h3>
+                            <p>Site vitrine d'un commerce d'opticien</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="images/portfolio/02.jpg" alt="logo de rose lapin" class="portfolio_img">
+                    <div class="overlay_projet_info">
+                        <div class="icone_projet_info"><i class="far fa-eye"></i></div>
+                        <div class="legend">
+                            <h3>Rose Lapin</h3>
+                            <p> Spécialiste événementiel de pâque</p>
+                        </div>
+                    </div>
+
+                </article>
+
+                <article>
+                    <img src="images/portfolio/03.jpg" alt="logo de pompadour coiffure" class="portfolio_img">
+                    <div class="overlay_projet_info">
+                        <div class="icone_projet_info"><i class="far fa-eye"></i></div>
+                        <div class="legend">
+                            <h3>Pompadour Coiffure</h3>
+                            <p>Site vitrine d'un salon de coiffure</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="images/portfolio/04.jpg" alt="logo d'Architecte adventure" class="portfolio_img">
+                    <div class="overlay_projet_info">
+                        <div class="icone_projet_info"><i class="far fa-eye"></i></div>
+                        <div class="legend">
+                            <h3>Architecte adventure</h3>
+                            <p>Un blog d'architecte qui partage son univers </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="images/portfolio/05.jpg" alt="logo de verted" class="portfolio_img">
+                    <div class="overlay_projet_info">
+                        <div class="icone_projet_info"><i class="far fa-eye"></i></div>
+                        <div class="legend">
+                            <h3>Verted</h3>
+                            <p>E-commerce de vente et achat de vêtement </p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="images/portfolio/06.jpg" alt="logo de jojodada graphiste" class="portfolio_img">
+                    <div class="overlay_projet_info">
+                        <div class="icone_projet_info"><i class="far fa-eye"></i></div>
+                        <div class="legend">
+                            <h3>Jojodada graphiste</h3>
+                            <p>Portfolio d'un graphiste</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="images/portfolio/07.jpg" alt="logo de rocket boy" class="portfolio_img">
+                    <div class="overlay_projet_info">
+                        <div class="icone_projet_info"><i class="far fa-eye"></i></div>
+                        <div class="legend">
+                            <h3>Rocket Boy</h3>
+                            <p>Site d'actualité d'Aerospatiale</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="images/portfolio/08.jpg" alt="logo de FourniturePlus" class="portfolio_img">
+                    <div class="overlay_projet_info">
+                        <div class="icone_projet_info"><i class="far fa-eye"></i></div>
+                        <div class="legend">
+                            <h3>FourniturePlus</h3>
+                            <p>e-commerce de papeterie </p>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Contact info-->
+    <footer id="contact">
+        <div id="block_contact">
+            <h2>Conctact info</h2>
+            <p><span>WebAgency</span> <br />
+                25 Rue d'Hauteville 75010 Paris<br />
+                Tel : 01 02 03 04 05</p>
+            <form method="post" action="traitement.php">
+
+                <p>
+                    <input type="text" name="noms" id="name" placeholder="Noms" required /></p>
+                <p>
+                    <input type="email" name="email" id="email" placeholder="Email" required /></p>
+                <p>
+                    <input type="text" name="subjet" id="Subjet" placeholder="Subjet" required /></p>
+                <textarea placeholder="message" required></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+        </div>
+        <div id="color_on_map"></div>
+        <div>
+            <iframe src="https://maps.google.com/maps?&hl=fr&q=25%20Rue%20d'Hauteville%2075010%20Paris+(WebAgency)&ie=UTF8&t=&z=14&iwloc=B&output=embed">
+
+            </iframe></div>
+    </footer>
+
+
+
+</body>
+
+</html>
